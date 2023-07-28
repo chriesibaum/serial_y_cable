@@ -36,5 +36,5 @@ pip install pyserial key_stroke
 \
 \
 The closing word for this week:\
-Have fun with the serial_y_cable tool!
+Have fun with the serial_y_cable tool!\
 Thomas@chriesibaum.com
