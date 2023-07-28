@@ -17,15 +17,15 @@ from key_stroke import *
 __usage__ = """
 basic usage of serial_y_cable:
 
-     ┌─────────────────┐                                                                     ┌────────────────────────────────┐
-     │ hardware / DUT  ├──  hardware serial dev   ─────┬───────  virtual serial dev 0  ──────┤ application that controls      │
-     └─────────────────┘      e.g.://dev/ttyUSB0       │          /tmp/ttyUSB0-V0            │ the hardware / DUT             │
-                                                       │                                     └────────────────────────────────┘
-                                                       │
-                                                       │                                     ┌────────────────────────────────┐
-                                                       └───────  virtual serial dev 1  ──────┤ serial terminal for monitoring │
-                                                                   /tmp/ttyUSB0-V0           │  - e.g. minicom, screen, etc.  │
-                                                                                             └────────────────────────────────┘
+  ┌─────────────────┐                                                                     ┌────────────────────────────────┐
+  │ hardware / DUT  ├──  hardware serial dev   ─────┬───────  virtual serial dev 0  ──────┤ application that controls      │
+  └─────────────────┘      e.g.://dev/ttyUSB0       │          /tmp/ttyUSB0-V0            │ the hardware / DUT             │
+                                                    │                                     └────────────────────────────────┘
+                                                    │
+                                                    │                                     ┌────────────────────────────────┐
+                                                    └───────  virtual serial dev 1  ──────┤ serial terminal for monitoring │
+                                                                /tmp/ttyUSB0-V0           │  - e.g. minicom, screen, etc.  │
+                                                                                          └────────────────────────────────┘
 
 """
 
