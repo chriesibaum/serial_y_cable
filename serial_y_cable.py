@@ -8,9 +8,9 @@ __version__ = "0.1.0"
 
 import os
 import sys
-import serial
 import time
 import argparse
+import serial
 from key_stroke import *
 
 

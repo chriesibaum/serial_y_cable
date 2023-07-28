@@ -19,4 +19,22 @@ basic usage of serial_y_cable:
 
 ## Limitations
 
-For now only monitoring is implemented (bytes are only copied from the hardware side to the virtual devices).
+For now only monitoring on both virtual devices is implemented (bytes are only copied from the hardware side to the virtual devices).
+
+
+## Requirements
+
+The following modules are needed for **serial_y_cable**
+- pyserial
+- key_stroke
+
+You can install them easily from pypi.org:
+```
+pip install pyserial key_stroke
+```
+
+
+
+The closing word:
+have fun!
+Thomas@chriesibaum.com
