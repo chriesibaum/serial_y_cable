@@ -33,8 +33,8 @@ You can install them easily from pypi.org:
 pip install pyserial key_stroke
 ```
 
-
-
-The closing word for this week:
+\
+\
+The closing word for this week:\
 Have fun with the serial_y_cable tool!
 Thomas@chriesibaum.com
