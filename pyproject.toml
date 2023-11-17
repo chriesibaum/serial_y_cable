@@ -28,6 +28,7 @@ classifiers = [
 
 dependencies = [
     "pyserial",
+    "key_stroke",
 ]
 
 dynamic = ["version"]
