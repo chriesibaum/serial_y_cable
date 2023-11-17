@@ -3,7 +3,7 @@
 
 __author__ = "Thomas@chriesibaum.com"
 __copyright__ = "Copyright 2023, Chriesibaum GmbH"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 import os
@@ -27,6 +27,7 @@ basic usage of serial_y_cable:
                                                                 /tmp/ttyUSB0-V0           │  - e.g. minicom, screen, etc.  │
                                                                                           └────────────────────────────────┘
 
+serial_y_cable --serial_device /dev/ttyUSB0
 """
 
 
@@ -124,7 +125,7 @@ def main():
 
 	# basic args check
 	if args.version:
-		print('%s'%(version.getVersion()))
+		print(__version__)
 		sys.exit(0)
 
 	if args.usage:
