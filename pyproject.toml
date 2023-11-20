@@ -15,6 +15,7 @@ authors = [
 
 description = "The serial_y_cable Tool"
 
+
 readme = "README.md"
 
 license = { file="LICENSE" }
@@ -39,3 +40,7 @@ path = "serial_y_cable.py"
 
 [project.urls]
 "Homepage" = "https://github.com/chriesibaum/serial_y_cable"
+
+
+[project.scripts]
+serial_y_cable = 'serial_y_cable:main'

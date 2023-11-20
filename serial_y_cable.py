@@ -3,7 +3,7 @@
 
 __author__ = "Thomas@chriesibaum.com"
 __copyright__ = "Copyright 2023, Chriesibaum GmbH"
-__version__ = "0.1.1"
+__version__ = "0.2.0"
 
 
 import os
@@ -111,7 +111,7 @@ def main():
 	parser.add_argument('--version', const = True, action = 'store_const', default = False,
 						help='Prints the tool version')
 
-	parser.add_argument('--usage', const = True, action = 'store_const', default = False,
+	parser.add_argument('-u', '--usage', const = True, action = 'store_const', default = False,
 						help='Prints the tool usage')
 
 	parser.add_argument('-D', '--serial_device',  metavar='</dev/ttyX>', type=str, default = '/dev/ttyACM0',
