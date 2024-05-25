@@ -76,6 +76,6 @@ clean:
 
 
 upload:
-	twine upload ./dist/serial_y_cable-*.tar.gz ./dist/serial_y_cable-*-py3-none-any.whl
+	twine upload --repository serial_y_cable  ./dist/serial_y_cable-*.tar.gz ./dist/serial_y_cable-*-py3-none-any.whl
 	
 	
